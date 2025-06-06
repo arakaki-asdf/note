@@ -1,0 +1,8 @@
+
+title: My markdown Notes
+description: A notes
+theme: jekyll-theme-minimal
+
+
+baseurl: "/note.git"
+url: "https://arakaki-asdf/github.io"
