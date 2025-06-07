@@ -1,8 +1,3 @@
-
-title: My markdown Notes
-description: A notes
-theme: jekyll-theme-minimal
-
-
+theme: minima
 url: "https://arakaki-asdf.github.io"
 baseurl: "/note"
