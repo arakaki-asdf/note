@@ -1,3 +1,5 @@
 theme: minima
 url: "https://arakaki-asdf.github.io"
 baseurl: "/note"
+markdown: kramdown
+highlighter: rouge
