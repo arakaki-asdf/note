@@ -55,20 +55,6 @@ img {
   max-width: 80%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  color: #333;
-  padding: 0.75em 0.5em !important;
-  line-height: 1em;
-}
-h4, h5, h6 { font-weight: bold; }
-h1 { font-size: 28px !important; }
-h2 { font-size: 26px !important; }
-h3 { font-size: 20px !important; }
-h4 { font-size: 16px !important; }
-h5 { font-size: 14px !important; }
-h6 { font-size: 12px !important; }
-
 blockquote {
   color: #666;
   margin: 0;
@@ -130,9 +116,16 @@ th, td {
   body { font-size: 14px; }
 }
 
-/* design */
+/* header design */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: #333;
+  line-height: 1em;
+}
 h1 { 
   position: relative;
+  padding: 0.75em 0.5em !important;
+  font-size: 28px !important;
   font-weight: bold;
   margin-bottom: 1em;
   color: #fff;
@@ -152,28 +145,36 @@ h1::after {
   border-bottom: 15px solid transparent;
 }
 h2 {
-  padding: 0.25em 0.5em;
+  font-size: 26px !important;
+  padding: 0.25em 0.5em !important;
   color: #494949;
   border-left: solid 5px #faaf58 !important;
   font-weight: bold;
 }
 h3 {
-  padding: 0.25em 0.5em;
+  padding: 0.25em 0.5em !important;
+  font-size: 20px !important;
   border-left: solid 5px #9ee6cf !important;
 }
 h4 {
+  padding: 0.25em 0.5em !important;
+  font-size: 16px !important;
   font-weight: bold;
   margin-bottom: 1em;
   border-radius: 10px;
   background: #f0fec9;
 }
 h5 {
+  padding: 0.25em 0.5em !important;
+  font-size: 14px !important;
   font-weight: bold;
   margin-bottom: 1em;
   border-bottom: 3px solid #f0fec9;
 }
 h6 {
-  font-weight: bold;
+  padding: 0.25em 0.5em !important;
+  font-size: 12px !important;
+  font-weight: bold ;
   margin-bottom: 1em;
   border-bottom: 3px dotted #f0fec9;
 }
