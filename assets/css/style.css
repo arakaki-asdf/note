@@ -22,6 +22,10 @@ hr {
   margin: 20px 0;
 }
 
+pre {
+  padding: 0 !important;
+}
+
 a { color: rgb(198, 127, 99) !important; text-decoration: none; }
 a:hover {
   text-decoration: none;
