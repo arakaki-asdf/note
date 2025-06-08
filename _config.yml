@@ -4,3 +4,5 @@ baseurl: "/note"
 kramdown:
   syntax_highlighter_opts:
     disable: true
+plugins:
+  - github-metadata
